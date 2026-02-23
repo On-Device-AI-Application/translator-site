@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalTranslate – Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.4rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p { margin-top: 10px; font-size: 1.1rem; color: #a1a1a6; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 24px; }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+    .card h2 { font-size: 1.3rem; font-weight: 600; margin-bottom: 12px; color: #1d1d1f; }
+    .card p, .card li { font-size: 1rem; color: #3a3a3c; margin-bottom: 8px; }
+    .card ul { padding-left: 20px; }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .lang-links { display: flex; gap: 12px; margin-top: 8px; }
+    .lang-links a {
+      display: inline-block;
+      background: #f0f0f5;
+      color: #1d1d1f;
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .lang-links a:hover { background: #e0e0e8; }
+    a.mailto {
+      color: #0071e3;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: #86868b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LocalTranslate</h1>
+  <p>Private, on-device AI translation — no data ever leaves your device.</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <span class="badge">100% On-Device</span>
+    <h2>How it Works</h2>
+    <p>LocalTranslate uses a large language model (LLM) that runs <strong>entirely on your iPhone or iPad</strong>. All translation processing happens locally using Apple's Neural Engine and the open-source llama.cpp inference engine.</p>
+    <ul>
+      <li>No internet connection required for translation.</li>
+      <li>Your text is never sent to any server or third-party service.</li>
+      <li>The AI model is downloaded once and stored on your device.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p>Read our full privacy policy to understand exactly what data the app handles (spoiler: almost none).</p>
+    <div class="lang-links">
+      <a href="privacy_en.html">English</a>
+      <a href="privacy_zh.html">中文</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>Have a question, found a bug, or want to request a feature? Open an issue on GitHub or send us an email.</p>
+    <p style="margin-top:12px;">
+      <a class="mailto" href="https://github.com/On-Device-AI-Application/translator/issues">GitHub Issues →</a>
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 LocalTranslate. All rights reserved.
+</footer>
+
+</body>
+</html>
